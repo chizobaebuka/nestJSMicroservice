@@ -5,9 +5,9 @@ import {
 } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import mongoose from 'mongoose';
-import { Book } from 'src/schemas/book.schema';
+import { Book } from '../../src/book/schemas/book.schema';
 import { Query } from 'express-serve-static-core';
-import { User } from 'src/auth/schemas/user.schema';
+import { User } from '../../src/auth/schemas/user.schema';
 
 @Injectable()
 export class BookService {

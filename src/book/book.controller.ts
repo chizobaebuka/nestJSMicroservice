@@ -11,7 +11,7 @@ import {
   UseGuards,
 } from '@nestjs/common';
 import { BookService } from './book.service';
-import { Book } from 'src/schemas/book.schema';
+import { Book } from 'src/book/schemas/book.schema';
 import { CreateBookDTO } from './dto/create-book.dto';
 import { UpdateBookDTO } from './dto/update-book.dto';
 import { Query as ExpressQuery } from 'express-serve-static-core';

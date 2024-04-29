@@ -6,7 +6,7 @@ import {
   IsString,
 } from 'class-validator';
 import { User } from 'src/auth/schemas/user.schema';
-import { Category } from 'src/schemas/book.schema';
+import { Category } from 'src/book/schemas/book.schema';
 
 export class CreateBookDTO {
   @IsString({ message: 'the title must be a string' })
